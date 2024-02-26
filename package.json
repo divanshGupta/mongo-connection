@@ -2,13 +2,17 @@
   "name": "mongoconnection",
   "version": "1.0.0",
   "description": "mongo db connection with backend",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon scr/index.js"
   },
   "keywords": [
     "javascript"
   ],
   "author": "Divyansh Gupta",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
